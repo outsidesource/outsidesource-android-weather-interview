@@ -4,6 +4,9 @@
 ### To obtain location coordinates: 
 Use the following API to retrieve longitude and latitude for a given zip or city
 
+### To obtain Weather Information: 
+User the following API to retrieve the forecast for longitude and latitude 
+
 url: `https://dark-sky.p.rapidapi.com`
 
 headers: 
@@ -17,6 +20,3 @@ required query params:
 optional query params: 
 - `lang` (default = en)
 - `units` (default = auto)
-
-### To obtain Weather Information: 
-User the following API to retrieve the forecast for longitude and latitude 
