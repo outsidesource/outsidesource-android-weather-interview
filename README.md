@@ -4,6 +4,14 @@
 ### To obtain location coordinates: 
 Use the following API to retrieve longitude and latitude for a given zip or city
 
+url: `http://www.mapquestapi.com/geocoding/v1/`
+
+queries: 
+- `key=HqdrQRdnVHXE48uM8wZ5LAbogRrR1BsT`
+- `location=<LOCATION>`
+
+ [MapQuest API](https://developer.mapquest.com/documentation/geocoding-api/address/get/)
+
 ### To obtain Weather Information: 
 User the following API to retrieve the forecast for longitude and latitude 
 
@@ -20,3 +28,5 @@ required query params:
 optional query params: 
 - `lang` (default = en)
 - `units` (default = auto)
+
+[Dark Sky](https://rapidapi.com/darkskyapis/api/dark-sky/endpoints)
