@@ -7,7 +7,7 @@ Use the following API to retrieve longitude and latitude for a given zip or city
 url: `https://dark-sky.p.rapidapi.com`
 
 headers: 
-- `x-rapidapi-key` : `f668cd53e7mshf8741e3008da3b0p1b9112jsna657102f3c10` (apply this as header) 
+- `x-rapidapi-key` : `f668cd53e7mshf8741e3008da3b0p1b9112jsna657102f3c10`
 - `X-RapidAPI-Host` : `dark-sky.p.rapidapi.com`
 
 required query params: 
