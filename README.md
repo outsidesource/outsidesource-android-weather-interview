@@ -20,8 +20,8 @@
 * Retrofit implementation
 
 ## UX/UI
-[UX/UI Interactive](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/)
-[UX/UI Specs](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/specs)
+* [UX/UI Interactive](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/)
+* [UX/UI Specs](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/specs)
 
 ## API Instructions
 ### Location API:
