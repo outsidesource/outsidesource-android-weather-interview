@@ -3,7 +3,7 @@
 ## Implementation Goals
 * Separation of concerns
 * Demonstrate extensible/scalable patterns
-* Implement the UI accurately
+* Implement the UI
 
 ## Requirements
 * Implementation of navigation
@@ -19,33 +19,27 @@
 * AuthenticationSDK (for logging in the user)
 * Retrofit implementation
 
+## UX/UI
+[UX/UI Interactive](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/)
+[UX/UI Specs](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/specs)
+
 ## API Instructions
-### To obtain location coordinates:
+### Location API:
 Use the following API to retrieve longitude and latitude for a given zip or city
 
-url: `http://www.mapquestapi.com/geocoding/v1/`
+[MapQuest API](https://developer.mapquest.com/documentation/geocoding-api/address/get/)
 
-queries:
+**url**: `http://www.mapquestapi.com/geocoding/v1/`
+
+**queries**:
 - `key=HqdrQRdnVHXE48uM8wZ5LAbogRrR1BsT`
 - `location=<LOCATION>`
 
- [MapQuest API](https://developer.mapquest.com/documentation/geocoding-api/address/get/)
+### Weather API:
+Use the following API to retrieve the forecast for longitude and latitude
 
-### To obtain Weather Information:
-User the following API to retrieve the forecast for longitude and latitude
+[OpenWeather](https://openweathermap.org/api)
 
-url: `https://dark-sky.p.rapidapi.com`
+**endpoint**: `https://api.openweathermap.org/data/2.5/onecall`
 
-headers:
-- `x-rapidapi-key` : `f668cd53e7mshf8741e3008da3b0p1b9112jsna657102f3c10`
-- `X-RapidAPI-Host` : `dark-sky.p.rapidapi.com`
-
-required query params:
-- `latitude`
-- `longitude`
-
-optional query params:
-- `lang` (default = en)
-- `units` (default = auto)
-
-[Dark Sky](https://rapidapi.com/darkskyapis/api/dark-sky/endpoints)
+**apiKey**: `123fe5d08a510d7e101cdd80946420cd`
