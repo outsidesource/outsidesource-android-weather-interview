@@ -17,7 +17,6 @@
 * LoginFragment shell with view model
 * ForecastFragment shell with view model
 * AuthenticationSDK (for logging in the user)
-* Retrofit implementation
 
 ## UX/UI
 * [UX/UI Interactive](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/)
