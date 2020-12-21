@@ -26,6 +26,10 @@ val emailPattern: Pattern = Pattern.compile(
 
 class Auth {
     companion object {
+        /**
+         * Log in a user. If there is an error, an [AuthError] will be returned in an
+         * [Outcome.Error]. On success and [Outcome.Ok] will be returned with the logged in [User].
+         */
         suspend fun login(email: String, password: String): Outcome<User> {
             if (!emailPattern.matcher(email).matches()) return Outcome.Error(AuthError.InvalidEmail)
             delay(1000)
