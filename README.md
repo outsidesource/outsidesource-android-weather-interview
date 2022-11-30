@@ -1,53 +1,21 @@
 # Outside Source Weather App
 
+## Abstract
+We designed this coding exercise to help us see how you would structure a new Android application and how well you can implement a design. We understand your time is valuable. For that reason, no part of this exam is required. With that said, the more you complete, the better we'll be able to assess your skill.
+
 ## Implementation Goals
 * Separation of concerns
 * Demonstrate extensible/scalable patterns
-* Implement the UI
+* UI implementation accuracy
 
-## Requirements
-* Implementation of navigation
-* Implementation of APIs
-* Implementation of Fragments and their corresponding layouts
-* Implementation of all business logic
-
-## What is Provided
-* [Koin](https://insert-koin.io/) dependency injection setup
-* MainActivity implementation
-* LoginFragment shell with view model
-* ForecastFragment shell with view model
-* AuthSDK (for logging in a mock user)
+## Implementation Notes
+* At Outside Source, all new applications use JetPack Compose. Please implement the UI using JetPack Compose.
+* The City/State input can accept any text.
+* Clicking the "Get Forecast" button may return the same results every time.
+* Treat the "Get Forecast" button as fetching from a API (which may be a mock).
 
 ## UX/UI
-* [UX/UI Interactive](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/)
+* [UX/UI Interactive](https://www.figma.com/file/4DyubgQdgoDsvtm3JxvgWI/OS-Weather-App)
 
-Assets can be downloaded here: 
-* [UX/UI Specs](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/specs)
-
-## Logging In
-
-The `AuthSDK` can be found under the `authsdk` package. The following user can be used to test
-the happy-path.
-* Email: `test@test.com`
-* Password: `password1234`
-
-## API Instructions
-### Location API:
-Use the following API to retrieve longitude and latitude for a given zip or city
-
-[MapQuest API](https://developer.mapquest.com/documentation/geocoding-api/address/get/)
-
-**url**: `http://www.mapquestapi.com/geocoding/v1/`
-
-**queries**:
-- `key=HqdrQRdnVHXE48uM8wZ5LAbogRrR1BsT`
-- `location=<LOCATION>`
-
-### Weather API:
-Use the following API to retrieve the forecast for longitude and latitude
-
-[OpenWeather](https://openweathermap.org/api)
-
-**endpoint**: `https://api.openweathermap.org/data/2.5/onecall`
-
-**apiKey**: `123fe5d08a510d7e101cdd80946420cd`
+## SVG Assets
+* [Assets](https://github.com/outsidesource/outsidesource-android-weather-interview/tree/main/assets)
