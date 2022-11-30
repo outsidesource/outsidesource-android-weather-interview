@@ -3,10 +3,13 @@
 ## Abstract
 We designed this coding exercise to help us see how you would structure a new Android application and how well you can implement a design. We understand your time is valuable. For that reason, no part of this exam is required. With that said, the more you complete, the better we'll be able to assess your skill.
 
-## Implementation Goals
+## Goals
 * Separation of concerns
 * Demonstrate extensible/scalable patterns
 * UI implementation accuracy
+
+## Instructions
+Start a new Android project and implement the design linked below. You may take as much time as needed and do as much or as little as you want. When you have finished, please provide us a .zip of the project for review.
 
 ## Implementation Notes
 * At Outside Source, all new applications use JetPack Compose. Please implement the UI using JetPack Compose.
